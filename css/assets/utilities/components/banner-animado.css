@@ -1,0 +1,32 @@
+.bannerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 15px;
+  overflow-x: hidden;
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
+}
+.bannerInfinite {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.bannerTxt{
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 50px;
+  letter-spacing: 1px;
+  width: max-content;
+  text-transform: uppercase;
+  animation: bannerAnimado 4000ms linear infinite;
+}
+
+@keyframes bannerAnimado {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(100px);
+  }
+}

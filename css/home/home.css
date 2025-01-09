@@ -1,0 +1,11 @@
+@import './global-sections/header.css';
+@import './global-sections/footer.css';
+
+@import './home-sections/slider.css';
+@import './home-sections/carrossel-marcas.css';
+@import './home-sections/artigos.css';
+@import './home-sections/lancamentos.css';
+@import './home-sections/noticias.css';
+@import './home-sections/membros.css';
+@import './home-sections/cultura.css';
+@import './home-sections/caixa-de-entrada.css';

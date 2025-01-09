@@ -1,0 +1,19 @@
+.noticias{
+  display: flex;
+  flex-direction: column;
+}
+.noticiasContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.artigoLarge{
+  grid-column: span 3;
+
+}
+@media(max-width:1000px){
+  .noticiasContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}

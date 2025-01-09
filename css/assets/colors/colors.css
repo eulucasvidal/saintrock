@@ -1,0 +1,27 @@
+:root{
+  --cor-p1: #FFFFFF;
+  --cor-p2: #1E1E1E;
+
+  --cor-s1:#99151A;
+
+  --gradient-1:to left,#A5F5D8,#CAF3BA,#F6F096;
+  --gradient-2:to left,#A2A1A6,#CCCBD0,#F7F6F9,#CCCBD0,#A2A1A6;
+}
+.gradient{
+  background: var(--gradient-1);
+}
+.bgGradient{
+  background: var(--gradient-2);
+}
+.cor-gradiente{
+  color: var(--gradient-1);
+}
+.cor-p1{
+  color: var(--cor-p1);
+}
+.cor-p2{
+  color: var(--cor-p2);
+}
+.cor-s1{
+  color: var(--cor-s1);
+}
