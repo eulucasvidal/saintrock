@@ -29,13 +29,27 @@
   background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
   text-transform: capitalize;
   border-radius: 5px;
+  cursor: pointer;
   border: none;
   padding: 5px;
+  width: 100%;
+}
+.culturaConteudoTxt h3{
+  font-size: 2rem;
 }
 .culturaConteudo > img{
   max-width: 800px;
 }
-@media(max-width:1000px){
+@media(max-width:1300px){
+  .culturaConteudoTxt h3{
+    font-size: 1.2rem;
+  }
+  .culturaConteudoTxt div {
+    max-width: initial;
+  }
+}
+
+@media(max-width:1150px){
   .culturaConteudo{
     grid-template-columns: 1fr;
     gap: 50px;
@@ -43,6 +57,7 @@
     box-shadow: none;
   }
   .culturaConteudoTxt{
+    align-items: center;
     gap: 30px;
   }
 }
