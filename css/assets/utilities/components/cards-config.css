@@ -5,7 +5,7 @@
   background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
   background-size: 500% 100%;
   animation: gradient-animado 4s infinite alternate;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }

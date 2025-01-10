@@ -25,6 +25,7 @@
   flex-direction: column;
   gap: 10px;
 }
+
 .footerItens div > h4{
   text-transform: uppercase;
 }
@@ -38,6 +39,9 @@
   gap: 30px;
 }
 @media(max-width:950px){
+  .footer{
+   margin-bottom: 10px;
+  }
   .footerItens{
     grid-template-columns: repeat(2,1fr);
   }

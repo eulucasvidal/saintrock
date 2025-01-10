@@ -1,6 +1,6 @@
 .logos img{
   display: initial;
-  width: initial;
+  width: 150px;
 }
 @keyframes slide {
   from {
@@ -45,7 +45,7 @@
 
 .logos-slide {
   display: inline-block;
-  animation: 14s slide infinite linear;
+  animation: 24s slide infinite linear;
 }
 
 .logos-slide img {

@@ -10,7 +10,7 @@
 }
 @media(max-width:1000px){
   .container{
-    padding: 15px 5px;
+    padding:10px;
   }
   .titulo{
     font-size: 3rem;
