@@ -1,8 +1,12 @@
 .fontInter-xs{
   font: 400 0.625rem/1.2 "Inter", sans-serif;
 }
+.fontInter-x,
 .fontInter-x-b{
-  font: 600 0.875rem/1.2 "Inter", sans-serif;
+  font: 400 0.875rem/1.2 "Inter", sans-serif;
+}
+.fontInter-x-b{
+  font-weight: 600;
 }
 .fontInter-m,
 .fontInter-m-b{

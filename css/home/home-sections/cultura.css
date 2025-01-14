@@ -30,9 +30,16 @@
   text-transform: capitalize;
   border-radius: 5px;
   cursor: pointer;
-  border: none;
+  border: 3px solid #1E1E1E;
   padding: 5px;
   width: 100%;
+  transition: .4s;
+}
+.culturaConteudoTxt button:hover,
+.culturaConteudoTxt button:hover a{
+  color:var(--cor-p1);
+  background: var(--cor-p2);
+  border-color: var(--cor-p1);
 }
 .culturaConteudoTxt h3{
   font-size: 2rem;

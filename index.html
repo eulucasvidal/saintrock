@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gemunu+Libre:wght@200..800&family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/ff7cccf4ba.js" crossorigin="anonymous"></script>
   <script>document.documentElement.className += " js";</script>
+  <link rel="shortcut icon" href="img/logos/site/favicon.ico" type="image/x-icon">
   <title>SaintRock | StreetWear News</title>
 </head>
 
@@ -42,8 +43,10 @@
           <li><a href="#">calendário SNKRS</a></li>
         </ul>
         <div class="headerBtns">
-          <i class="fa-solid fa-user"></i>
-          <i class="fa-solid fa-bag-shopping"></i>
+          <ul>
+            <li><a data-modal="abrir" href="login.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+          </ul>
           <button data-menu="button"><span id="hamburguer"></span></button>
         </div>
       </nav>
@@ -118,7 +121,7 @@
           <div class="tenisContainerSpans">
             <span class="fontInter-xs">07.03.2024</span>
             <span class="fontInter-xs">noticias</span>
-            <button class="tenisBtn"><a href="#">saiba mais</a></button>
+            <button class="cards-btn"><a href="#">saiba mais</a></button>
           </div>
         </div>
       </div>
@@ -130,7 +133,7 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">moda</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
@@ -141,7 +144,7 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">musica</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
@@ -257,7 +260,7 @@
         </div>
       </div>
     </section>
-    
+
     <section class="container noticias">
       <h2 class="titulo">ultimas noticias</h2>
 
@@ -269,7 +272,7 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">musica</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
@@ -280,7 +283,7 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">moda</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
@@ -291,7 +294,7 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">moda</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
@@ -302,7 +305,7 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">moda</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
@@ -313,7 +316,7 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">esporte</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
@@ -324,7 +327,7 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">moda</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
@@ -335,71 +338,157 @@
             <div class="tenisContainerSpans">
               <span class="fontInter-xs">07.03.2024</span>
               <span class="fontInter-xs">moda</span>
-              <button class="tenisBtn"><a href="#">saiba mais</a></button>
+              <button class="cards-btn"><a href="#">saiba mais</a></button>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container membros">
+    <section class="container">
       <h1 class="titulo">membros SNKRS</h1>
-      <div class="membrosColuna-1">
-        <div class="membrosItens">
-          <div class="membrosInfo">
-            <div>
-              <span class="fontExo-m-b">Lucas Ferreira</span>
-              <span class="fontInter-x-b">São Paulo, SP</span>
+      <div class="membros">
+        <div class="membrosContainer">
+          <div class="membrosColuna">
+            <div class="membros-item">
+              <ul class="list-star">
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+              </ul>
+              <p class="fontInter-m">"Sempre fui fã de sneakers e aqui é o lugar perfeito pra me atualizar. Parabésn pelo conteúdo!"</p>
+              <div class="item-info">
+                <img src="./img/posts/peoples/pessoa-1.svg" alt="">
+                <div>
+                  <span class="fontInter-m-b">Lucas Ferreira</span>
+                  <span class="fontInter-x">São Paulo, SP</span>
+                </div>
+              </div>
+            </div>
+            <div class="membros-item">
+              <ul class="list-star">
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+              </ul>
+              <p class="fontInter-m">"Adoro como vocês cobrem as colaborações! Sempre encontro novidades aqui antes de qualquer outro site."</p>
+              <div class="item-info">
+                <img src="./img/posts/peoples/pessoa-1.svg" alt="">
+                <div>
+                  <span class="fontInter-m-b">Ana Oliveira</span>
+                  <span class="fontInter-x">Rio de Janeiro, RJ</span>
+                </div>
+              </div>
+            </div>
+            <div class="membros-item">
+              <ul class="list-star">
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+              </ul>
+              <p class="fontInter-m">"O design do site é incrível, bem fácil de navegar. Continuem com esse trabalho incrível!"</p>
+              <div class="item-info">
+                <img src="./img/posts/peoples/pessoa-1.svg" alt="">
+                <div>
+                  <span class="fontInter-m-b">Mariana Costa</span>
+                  <span class="fontInter-x">Belo Horizonte, MG</span>
+                </div>
+              </div>
+            </div>
+            <div class="membros-item">
+              <ul class="list-star">
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+              </ul>
+              <p class="fontInter-m">"Muito bom ver notícias tão completas sobre sneakers e cultura da moda. Esse site virou minha referência!"</p>
+              <div class="item-info">
+                <img src="./img/posts/peoples/pessoa-1.svg" alt="">
+                <div>
+                  <span class="fontInter-m-b">João Santos</span>
+                  <span class="fontInter-x">Salvador, BA</span>
+                </div>
+              </div>
             </div>
           </div>
-          <p class="fontInter-m">"Sempre fui fã de sneakers e aqui é o lugar perfeito pra me atualizar. Parabésn pelo conteúdo!"</p>
-        </div>
-        <div class="membrosItens">
-          <div class="membrosInfo">
-            <div>
-              <span class="fontExo-m-b">Ana Oliveira</span>
-              <span class="fontInter-x-b">Rio de Janeiro, RJ</span>
+          <div class="membrosColuna">
+            <div class="membros-item">
+              <ul class="list-star">
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+              </ul>
+              <p class="fontInter-m">"O blog de sneakers me mantém atualizada sobre os lançamentos mais recentes e é incrível compartilhar minha paixão por tênis com outros membros!"</p>
+              <div class="item-info">
+                <img src="./img/posts/peoples/pessoa-1.svg" alt="">
+                <div>
+                  <span class="fontInter-m-b">Beatriz Lima</span>
+                  <span class="fontInter-x">Porto Alegre, RS</span>
+                </div>
+              </div>
+            </div>
+            <div class="membros-item">
+              <ul class="list-star">
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+              </ul>
+              <p class="fontInter-m">"Finalmente um site que junta moda, esporte e música de um jeito tão interessante. Tá top!"</p>
+              <div class="item-info">
+                <img src="./img/posts/peoples/pessoa-1.svg" alt="">
+                <div>
+                  <span class="fontInter-m-b">Pedro Almeida</span>
+                  <span class="fontInter-x">Curitiba, PR</span>
+                </div>
+              </div>
+            </div>
+            <div class="membros-item">
+              <ul class="list-star">
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+              </ul>
+              <p class="fontInter-m">Our agency's philosophy is rooted in the transformative power of exceptional design, inspiring meaningful connections and driving business growth. We embrace creativity, prioritize user-centric design</p>
+              <div class="item-info">
+                <img src="./img/posts/peoples/pessoa-1.svg" alt="">
+                <div>
+                  <span class="fontInter-m-b">Luana Silma</span>
+                  <span class="fontInter-x">Sao Paulo, SP</span>
+                </div>
+              </div>
+            </div>
+            <div class="membros-item">
+              <ul class="list-star">
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+                <li><img src="./img/icons/detalhes/Star 1.svg" alt=""></li>
+              </ul>
+              <p class="fontInter-m">Our agency's philosophy is rooted in the transformative power of exceptional design, inspiring meaningful connections and driving business growth. We embrace creativity, prioritize user-centric design</p>
+              <div class="item-info">
+                <img src="./img/posts/peoples/pessoa-1.svg" alt="">
+                <div>
+                  <span class="fontInter-m-b">Luana Silma</span>
+                  <span class="fontInter-x">Sao Paulo, SP</span>
+                </div>
+              </div>
             </div>
           </div>
-          <p class="fontInter-m">"Adoro como vocês cobrem as colaborações! Sempre encontro novidades aqui antes de qualquer outro site."</p>
-        </div>
-        <div class="membrosItens">
-          <div class="membrosInfo">
-            <div>
-              <span class="fontExo-m-b">Mariana Costa</span>
-              <span class="fontInter-x-b">Belo Horizonte, MG</span>
-            </div>
-          </div>
-          <p class="fontInter-m">"O design do site é incrível, bem fácil de navegar. Continuem com esse trabalho incrível!"</p>
-        </div>
-      </div>
-      <div class="membrosColuna-2">
-        <div class="membrosItens">
-          <div class="membrosInfo">
-            <div>
-              <span class="fontExo-m-b">João Santos</span>
-              <span class="fontInter-x-b">Salvador, BA</span>
-            </div>
-          </div>
-          <p class="fontInter-m">"Muito bom ver notícias tão completas sobre sneakers e cultura da moda. Esse site virou minha referência!"</p>
-        </div>
-        <div class="membrosItens">
-          <div class="membrosInfo">
-            <div>
-              <span class="fontExo-m-b">Beatriz Lima</span>
-              <span class="fontInter-x-b">Porto Alegre, RS</span>
-            </div>
-          </div>
-          <p class="fontInter-m">"O blog de sneakers me mantém atualizada sobre os lançamentos mais recentes e é incrível compartilhar minha paixão por tênis com outros membros!"</p>
-        </div>
-        <div class="membrosItens">
-          <div class="membrosInfo">
-            <div>
-              <span class="fontExo-m-b">Pedro Almeida</span>
-              <span class="fontInter-x-b">Curitiba, PR</span>
-            </div>
-          </div>
-          <p class="fontInter-m">"Finalmente um site que junta moda, esporte e música de um jeito tão interessante. Tá top!"</p>
         </div>
       </div>
     </section>
@@ -501,6 +590,20 @@
       </div>
     </section>
   </footer>
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <h2 class="fontExo-xl-b">Conta</h2>
+      <p class="fontInter-m-b">Junte-se à Saint Rock para avaliar lançamentos, ganhar brindes exclusivos e ficar por dentro das últimas novidades sobre tênis.</p>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
   <script type="module" src="js/script.js"></script>
 </body>
 

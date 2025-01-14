@@ -40,7 +40,7 @@
 .novidadesItens img{
   display: none;
 }
-@media(max-width:1305px){
+@media(max-width:1440px){
   .novidadesContainer{
     overflow-y: scroll;
     max-height: 500px;

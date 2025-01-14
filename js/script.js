@@ -6,3 +6,6 @@ initBannerSlider();
 
 import initTenisDestaque from "./lancamentos/lancamentos-imgs.js";
 initTenisDestaque();
+
+import initModal from "./modal/modal.js";
+initModal();

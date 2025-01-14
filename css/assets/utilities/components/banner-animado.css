@@ -19,14 +19,5 @@
   letter-spacing: 1px;
   width: max-content;
   text-transform: uppercase;
-  animation: bannerAnimado 4000ms linear infinite;
-}
-
-@keyframes bannerAnimado {
-  from{
-    transform: translateX(0);
-  }
-  to{
-    transform: translateX(100px);
-  }
+  animation: slide 4000ms linear infinite;
 }

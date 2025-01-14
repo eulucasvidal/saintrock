@@ -23,8 +23,8 @@
   font: 600 0.875rem/1.2 "Inter", sans-serif;
   color: var(--cor-p1);
 }
-
-.headerBtns{
+.headerBtns,
+.headerBtns ul{
   display: flex;
   flex-direction: row;
   gap: 10px;

@@ -19,7 +19,25 @@
   text-transform: uppercase;
   font: 600 1rem/1.2 'Inter', sans-serif;
   color: var(--cor-p2);
+  position: relative;
 }
+.footerLinks li a::after{
+  content: '';
+  width: 0%;
+  height: 0px;
+  left: 0;
+  bottom:-2px;
+  background-color: transparent;
+  position: absolute;
+  transition: .8s;
+}
+.footerLinks li a:hover::after{
+  width: 100%;
+  
+  height: 4px;
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
+}
+
 .footerItens > div{
   display: flex;
   flex-direction: column;

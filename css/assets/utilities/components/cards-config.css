@@ -12,22 +12,22 @@
 .cards-small img{
   max-height: 510px;
 }
-@keyframes gradient-animado {
-0% {
-  background-position-x: 0%;
+.cards img{
+  transition: .4s;
 }
-50% {
-  background-position-x: 50%;
+.cards img:hover{
+  transform: scale(1.1);
 }
-100% {
-  background-position-x: 100%;
-}
-}
+
 .tenisInfo{
   display: flex;
   flex-direction: column;
   gap: 5px;
   padding: 20px;
+  z-index: 1;
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
+  background-size: 500% 100%;
+  animation: gradient-animado 4s infinite alternate;
 }
 
 .tenisContainerSpans{
@@ -38,13 +38,21 @@
   border-top:1px solid black;
   padding: 10px;
   text-transform: uppercase;
+  transition: .4s;
 }
-.tenisBtn{
+.cards-btn{
   font: 400 0.625rem/1.2 "Inter", sans-serif;
   text-transform: uppercase;
   background: transparent;
   border: 1px solid black;
   padding: 4px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.cards-btn:hover, .cards-btn:hover a{
+  background:var(--cor-p2) ;
+  color: var(--cor-p1);
 }
 @media(max-width:1180px){
   .cards{
@@ -55,3 +63,14 @@
     max-height: 800px;
   }
 }
+@keyframes gradient-animado {
+  0% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 50%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+  }
