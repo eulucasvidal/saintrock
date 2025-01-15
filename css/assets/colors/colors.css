@@ -10,7 +10,7 @@
 .gradient{
   background: var(--gradient-1);
 }
-.bgGradient{
+.bg-gradient{
   background: var(--gradient-2);
 }
 .cor-gradiente{

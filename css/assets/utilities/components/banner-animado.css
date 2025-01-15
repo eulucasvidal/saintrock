@@ -1,4 +1,4 @@
-.bannerContainer {
+.banner-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,12 +7,12 @@
   overflow-x: hidden;
   background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
 }
-.bannerInfinite {
+.banner-infinite {
   display: flex;
   margin: 0;
   padding: 0;
 }
-.bannerTxt{
+.banner-txt{
   display: inline-block;
   white-space: nowrap;
   margin-right: 50px;

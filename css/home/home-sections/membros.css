@@ -4,19 +4,19 @@
   overflow: hidden;
   gap: 50px;
 }
-.membrosContainer{
+.membros-container{
   overflow: hidden;
   padding: 30px 0;
   background: white;
   position: relative;
 }
-.membrosColuna{
+.membros-coluna{
   display: flex;
   padding: 20px 0px;
   gap: 20px;
 }
-.membrosColuna:before,
-.membrosColuna:after {
+.membros-coluna:before,
+.membros-coluna:after {
   position: absolute;
   top: 0;
   width: 150px;
@@ -24,11 +24,11 @@
   content: "";
   z-index: 2;
 }
-.membrosColuna::before{
+.membros-coluna::before{
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
 }
-.membrosColuna::after{
+.membros-coluna::after{
   right: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }

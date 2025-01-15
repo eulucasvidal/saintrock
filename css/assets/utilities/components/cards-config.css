@@ -19,7 +19,7 @@
   transform: scale(1.1);
 }
 
-.tenisInfo{
+.tenis-info{
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -30,7 +30,7 @@
   animation: gradient-animado 4s infinite alternate;
 }
 
-.tenisContainerSpans{
+.tenis-container-spans{
   display: flex;
   align-items: center;
   justify-content: space-between;

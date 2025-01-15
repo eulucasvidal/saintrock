@@ -1,31 +1,31 @@
-.culturaBg{
+.cultura-bg{
   background: var(--cor-p2);
 }
-.culturaBg h2{
+.cultura-bg h2{
   max-width: 15ch;
   padding: 30px;
   color: var(--cor-p1);
 }
-.culturaConteudo{
+.cultura-conteudo{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
   padding:0px 30px;
   box-shadow:inset 0 -80px var(--cor-p1);
 }
-.culturaConteudoTxt{
+.cultura-conteudo-txt{
   display: flex;
   flex-direction: column;
   gap: 60px;
   color: var(--cor-p1);
 }
-.culturaConteudoTxt div {
+.cultura-conteudo-txt div {
   max-width: 60ch;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.culturaConteudoTxt button{
+.cultura-conteudo-txt button{
   background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
   text-transform: capitalize;
   border-radius: 5px;
@@ -35,44 +35,44 @@
   width: 100%;
   transition: .4s;
 }
-.culturaConteudoTxt button:hover,
-.culturaConteudoTxt button:hover a{
+.cultura-conteudo-txt button:hover,
+.cultura-conteudo-txt button:hover a{
   color:var(--cor-p1);
   background: var(--cor-p2);
   border-color: var(--cor-p1);
 }
-.culturaConteudoTxt h3{
+.cultura-conteudo-txt h3{
   font-size: 2rem;
 }
-.culturaConteudo > img{
+.cultura-conteudo > img{
   max-width: 800px;
 }
 @media(max-width:1300px){
-  .culturaConteudoTxt h3{
+  .cultura-conteudo-txt h3{
     font-size: 1.2rem;
   }
-  .culturaConteudoTxt div {
+  .cultura-conteudo-txt div {
     max-width: initial;
   }
 }
 
 @media(max-width:1150px){
-  .culturaConteudo{
+  .cultura-conteudo{
     grid-template-columns: 1fr;
     gap: 50px;
     padding: 30px;
     box-shadow: none;
   }
-  .culturaConteudoTxt{
+  .cultura-conteudo-txt{
     align-items: center;
     gap: 30px;
   }
 }
 @media(max-width:650px){
-  .culturaBg h2{
+  .cultura-bg h2{
     padding: 15px;
   }
-  .culturaConteudo{
+  .cultura-conteudo{
     padding: 15px;
   }
 }

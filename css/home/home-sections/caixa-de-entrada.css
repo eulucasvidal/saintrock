@@ -1,15 +1,15 @@
-.capturaCliente{
+.captura-cliente{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 400px;
 }
-.capturaCliente > h2{
+.captura-cliente > h2{
   position: relative;
 }
 
-.btnCapturaContainer{
+.btn-captura-container{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,24 +18,24 @@
   position: absolute;
   margin-top: 160px;
 }
-.btnCaptura{
+.btn-captura{
   width: max-content;
   padding: 30px 120px 30px 30px;
   cursor: pointer;
   background: var(--cor-p1);
 }
-.btnCapturaContainer > p{
+.btn-captura-container > p{
   max-width: 80ch;
   font: 400 0.625rem/1.2 'Inter', sans-serif;
   text-align: center;
 }
 @media(max-width:850px){
-  .capturaCliente h2{
+  .captura-cliente h2{
     font-size: 6rem;
   }
 }
 @media(max-width:650px){
-  .capturaCliente h2{
+  .captura-cliente h2{
     font-size: 3.5rem;
   }
 }

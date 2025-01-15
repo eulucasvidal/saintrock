@@ -1,5 +1,5 @@
 export default function initBannerSlider() {
-  const radio = document.querySelector('.manualBtn');
+  const radio = document.querySelector('.manual-btn');
   let cont = 1;
   document.getElementById('radio1').checked = true;
 

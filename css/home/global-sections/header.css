@@ -1,4 +1,4 @@
-.headerBg{
+.header-bg{
   background:var(--cor-p1);
 }
 .header{
@@ -11,7 +11,7 @@
   border-radius: 5px;
   position: relative;
 }
-.headerMenu{
+.header-menu{
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -19,26 +19,26 @@
   text-transform: uppercase;
   gap: 30px;
 }
-.headerMenu li a{
+.header-menu li a{
   font: 600 0.875rem/1.2 "Inter", sans-serif;
   color: var(--cor-p1);
 }
-.headerBtns,
-.headerBtns ul{
+.header-btns,
+.header-btns ul{
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
-.headerBtns i{
+.header-btns i{
   color: var(--cor-p1);
   cursor: pointer;
 }
-.headerMenu li a:hover,
-.headerBtns i:hover{
+.header-menu li a:hover,
+.header-btns i:hover{
   color: #CAF3BA;
 }
 @media(max-width:1000px){
-  .headerMenu {
+  .header-menu {
     display: block;
     position: absolute;
     top: 57px;
@@ -52,7 +52,7 @@
     overflow-y: hidden;
     visibility: hidden;
   }
-  .headerMenu li a{
+  .header-menu li a{
     font-size: 3rem;
   }
   [data-menu="suave"].ativo{
@@ -62,7 +62,7 @@
     top: 0;
     right: 0;
   }
-  [data-menu="suave"].ativo .headerMenu {
+  [data-menu="suave"].ativo .header-menu {
     display: block;
     height: 100vh;
     overflow-y: hidden;
