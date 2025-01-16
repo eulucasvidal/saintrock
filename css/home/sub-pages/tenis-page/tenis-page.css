@@ -1,0 +1,131 @@
+.page-tenis{
+  display: flex;
+  flex-direction: column;
+  background-color: #3366DD;
+}
+.page-tenis img{
+  align-self: center;
+  padding: 50px 150px;
+  max-width: 1400px;
+}
+.page-tenis-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.page-subtitulo-tenis{
+  font: 600 3rem/1.2 "Exo 2", sans-serif;
+  width: 16ch;
+  color: var(--cor-p1);
+}
+.page-lista-itens{
+  display: flex;
+  flex-direction: column;
+  color: var(--cor-p1);
+  gap: 10px;
+  font-size: 18px;
+}
+.page-lista-itens li{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 35px;
+}
+.info-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  padding-bottom: 180px;
+  color: var(--cor-p1);
+  background-color: #3366DD;
+}
+.info-page-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.page-detalhes-tenis{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.page-imgs-tenis{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+}
+.page-imgs-tenis div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 40px;
+}
+.page-imgs-tenis img{
+  transition: .4s;
+}
+.page-imgs-tenis img:hover{
+  transform: scale(1.2);
+}
+.page-tenis-btns{
+  display: flex;
+  flex-direction: row;
+}
+.btn-page{
+  border-radius: 5px;
+  border: 1px solid var(--cor-p2);
+  height: 60px;
+  width: 280px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.btn1{
+  background:var(--cor-p1);
+  color: var(--cor-p2);
+  transition: .4s;
+}
+.btn1:hover{
+  background: var(--cor-p2);
+  color: var(--cor-p1);
+}
+.btn2{
+  background:var(--cor-p2);
+  color: var(--cor-p1);
+  transition: .1s;
+}
+.btn2:hover{
+  color: #F6F096;
+}
+
+@media(max-width:1000px){
+  .page-tenis{
+    padding: 20px;
+  }
+  .page-tenis img{
+    padding: 30px;
+  }
+  .page-subtitulo-tenis{
+    width: auto;
+    font-size: 2rem;
+  }
+  .page-tenis-info{
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+  }
+  .page-detalhes-tenis{
+    gap: 50px;
+  }
+  .info-page{
+    grid-template-columns: 1fr;
+  }
+  .page-imgs-tenis div{
+    grid-template-columns: 1fr;
+  }
+  .btn-page{
+    width: 200px;
+    height: 45px;
+  }
+}
