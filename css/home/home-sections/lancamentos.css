@@ -70,4 +70,7 @@
   .novidades-itens img{
     width: 150px;
   }
+  .novidades-itens p{
+    display: none;
+  }
 }
