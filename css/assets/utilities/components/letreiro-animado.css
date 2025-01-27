@@ -5,12 +5,14 @@
 }
 .letreiro-lista{
   display: flex;
-  flex-direction: row;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+.letras{
+  height: 50px;
+  visibility: visible;
 }
 /* Animção com JS */
 .letras.hidden{
-  display: none;
   opacity: 0;
+  visibility: hidden;
 }

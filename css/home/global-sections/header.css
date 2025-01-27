@@ -31,10 +31,7 @@
   padding-top: 10px;
   gap: 10px;
 }
-.header img{
-  height: 50px;
-  transition: .4s;
-}
+
 .header-btns{
   display: flex;
   align-items: center;
