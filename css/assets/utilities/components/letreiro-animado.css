@@ -5,6 +5,8 @@
 }
 .letreiro-lista{
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   transition: 0.4s;
 }
 .letras{
