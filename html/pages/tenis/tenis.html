@@ -11,23 +11,47 @@
 
 <body>
   <header class="header-bg">
-    <div class="container">
-      <nav data-menu="suave" class="header">
-        <div>
-          <a href="../../../index.html"><img src="../../../img/logos/site/saintrock-white.svg" alt="logotipo do site"></a>
+    <div class="header container">
+      <nav class="header-nav">
+        <div class="menu-letreiro">
+          <button data-menu="button">
+            <span id="hamburguer"></span>
+          </button>
+          <div data-menu="suave">
+            <ul class="menu">
+              <li><a href="#">tênis</a></li>
+              <li><a href="#">novidades</a></li>
+              <li><a href="#">marcas</a></li>
+              <li><a href="#">calendário SNKRS</a></li>
+              <li><a href="#">sobre</a></li>
+              <li>
+                <button>receba nossas novidades</button>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="letreiro-lista">
+              <li><a href="../../../index.html"><img class="letras" src="../../../img/logos/site/s.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="../../../img/logos/site/a.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="../../../img/logos/site/i.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="../../../img/logos/site/n.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="../../../img/logos/site/t.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="../../../img/logos/site/r.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="../../../img/logos/site/o.svg" alt=""></a></li>
+              <li>
+                <a href="../../../index.html"><img class="letras" src="../../../img/logos/site/c.svg" alt=""></a>
+              </li>
+              <li>
+                <a href="../../../index.html"><img class="letras" src="../../../img/logos/site/k.svg" alt=""></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <ul class="header-menu">
-          <li><a href="#">tênis</a></li>
-          <li><a href="#">novidades</a></li>
-          <li><a href="#">marcas</a></li>
-          <li><a href="#">calendário SNKRS</a></li>
-        </ul>
-        <div class="header-btns">
-          <ul>
-            <li><a data-modal="abrir" href="login.html"><i class="fa-solid fa-user"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <div>
+          <ul class="header-btns">
+            <li><a data-modal="abrir" href="./login.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="../../../index.html"><i class="fa-solid fa-house"></i></a></li>
           </ul>
-          <button data-menu="button"><span id="hamburguer"></span></button>
         </div>
       </nav>
     </div>
@@ -51,20 +75,27 @@
           </div>
         </div>
       </div>
-      <div class="banner-container">
-        <ul class="banner-infinite font-gemunu-xs">
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-          <li class="banner-txt">baixe nosso aplicativo sneakears</li>
-        </ul>
+      <div class="font-gemunu-xs cor-2">
+        <div class="banner-container-global">
+          <ul class="banner-infinite font-gemunu-xs">
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+            <li class="banner-txt">baixe nosso aplicativo sneakears</li>
+
+          </ul>
+        </div>
       </div>
       <div class="info-page">
         <div class="page-detalhes-tenis">
@@ -95,7 +126,6 @@
     </section>
   </main>
   <footer>
-
     <section class="container footer">
       <div class=" footer-itens">
         <div>
@@ -136,6 +166,21 @@
       </div>
     </section>
   </footer>
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <h2 class="font-exo-xl-b">Conta</h2>
+      <p class="font-inter-m-b">Junte-se à Saint Rock para avaliar lançamentos, ganhar brindes exclusivos e ficar por dentro das últimas novidades sobre tênis.</p>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+  <script type="module" src="../../../js/script.js"></script>
 </body>
 
 </html>

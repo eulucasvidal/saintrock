@@ -9,3 +9,6 @@ initTenisDestaque();
 
 import initModal from "./modal/modal.js";
 initModal();
+
+import initLetreiroAnimado from "./letreiroAnimado/letreiro-animado.js";
+initLetreiroAnimado();

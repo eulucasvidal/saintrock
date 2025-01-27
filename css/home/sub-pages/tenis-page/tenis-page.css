@@ -1,6 +1,7 @@
 .page-tenis{
   display: flex;
   flex-direction: column;
+  padding-top: 200px;
   background-color: #3366DD;
 }
 .page-tenis img{
@@ -54,6 +55,7 @@
 .page-imgs-tenis{
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   padding: 40px;
   gap: 20px;
 }
@@ -101,7 +103,7 @@
 
 @media(max-width:1000px){
   .page-tenis{
-    padding: 20px;
+    padding: 100px 20px;
   }
   .page-tenis img{
     padding: 30px;

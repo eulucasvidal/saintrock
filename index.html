@@ -16,7 +16,7 @@
 
 <body>
   <div class="banner-container">
-    <ul class="banner-infinite font-gemunu-xs">
+    <ul class="banner-container-header font-gemunu-xs">
       <li class="banner-txt">baixe nosso aplicativo sneakears</li>
       <li class="banner-txt">baixe nosso aplicativo sneakears</li>
       <li class="banner-txt">baixe nosso aplicativo sneakears</li>
@@ -31,23 +31,43 @@
     </ul>
   </div>
   <header class="header-bg">
-    <div class="container">
-      <nav data-menu="suave" class="header">
-        <div>
-          <a href="index.html"><img src="./img/logos/site/saintrock-white.svg" alt="logotipo do site"></a>
+    <div class="header container">
+      <nav class="header-nav">
+        <div class="menu-letreiro">
+          <button data-menu="button">
+            <span id="hamburguer"></span>
+          </button>
+          <div data-menu="suave">
+            <ul class="menu">
+              <li><a href="#">tênis</a></li>
+              <li><a href="#">novidades</a></li>
+              <li><a href="#">marcas</a></li>
+              <li><a href="#">calendário SNKRS</a></li>
+              <li><a href="#">sobre</a></li>
+              <li>
+                <button>receba nossas novidades</button>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="letreiro-lista">
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/s.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/a.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/i.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/n.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/t.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/r.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/o.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/c.svg" alt=""></a></li>
+              <li><a href="../../../index.html"><img class="letras" src="./img/logos/site/k.svg" alt=""></a></li>
+            </ul>
+          </div>
         </div>
-        <ul class="header-menu">
-          <li><a href="#">tênis</a></li>
-          <li><a href="#">novidades</a></li>
-          <li><a href="#">marcas</a></li>
-          <li><a href="#">calendário SNKRS</a></li>
-        </ul>
-        <div class="header-btns">
-          <ul>
-            <li><a data-modal="abrir" href="login.html"><i class="fa-solid fa-user"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <div>
+          <ul class="header-btns">
+            <li><a data-modal="abrir" href="./login.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="./index.html"><i class="fa-solid fa-house"></i></a></li>
           </ul>
-          <button data-menu="button"><span id="hamburguer"></span></button>
         </div>
       </nav>
     </div>
@@ -158,105 +178,125 @@
           <img id="img-tenis" src="./img/posts/sneakers/bad-bunny-x-adidas/bad-bunny-adidas1.png" alt="tenis lançamentos">
         </div>
         <div class="novidades-container">
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/bad-bunny-x-adidas/bad-bunny-adidas1.png">
-            <div>
-              <img src="./img/posts/sneakers/bad-bunny-x-adidas/bad-bunny-adidas1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">Adidas</span>
-              <p class="font-inter-x-b">bad-bunny x adidas</p>
-            </div>
-            <span class="font-gemunu-xs">82,30º</span>
-          </div>
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/nike-dunk-low-brasil/nike-dunk-low-brazil-1.png">
-            <div>
-              <img src="./img/posts/sneakers/nike-dunk-low-brasil/nike-dunk-low-brazil-1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">nike</span>
-              <p class="font-inter-x-b">nike dunk low brasil</p>
-            </div>
-            <span class="font-gemunu-xs"><a href="./html/pages/tenis/tenis.html">Saiba Mais</a></span>
-          </div>
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/off-white-x-air-jordan-1/off-white-aj1-1.png">
-            <div>
-              <img src="./img/posts/sneakers/off-white-x-air-jordan-1/off-white-aj1-1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">nike</span>
-              <p class="font-inter-x-b">off white air jordan 1</p>
-            </div>
-            <span class="font-gemunu-xs">82,30º</span>
-          </div>
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/off-white-x-nike-air-force-1-low-lemonade/off-white-nike-af1-lowgold1.png">
-            <div>
-              <img src="./img/posts/sneakers/off-white-x-nike-air-force-1-low-lemonade/off-white-nike-af1-lowgold1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">nike</span>
-              <p class="font-inter-x-b">offwhite x nike air force 1</p>
-            </div>
-            <span class="font-gemunu-xs">82,30º</span>
-          </div>
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/travis-scott-x-nike-dunk-low/travis-scott-nike-dunk-low1.png">
-            <div>
-              <img src="./img/posts/sneakers/travis-scott-x-nike-dunk-low/travis-scott-nike-dunk-low1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">nike</span>
-              <p class="font-inter-x-b">travis scott x nike dunk low 1</p>
-            </div>
-            <span class="font-gemunu-xs">82,30º</span>
-          </div>
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/tyga-x-mschf/tyga-mschf-1.png">
-            <div>
-              <img src="./img/posts/sneakers/tyga-x-mschf/tyga-mschf-1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">vans</span>
-              <p class="font-inter-x-b">vans tyga x mschf</p>
-            </div>
-            <span class="font-gemunu-xs">82,30º</span>
-          </div>
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/yeezy-350-v2-zebra/yeezy-350-zebra-1.png">
-            <div>
-              <img src="./img/posts/sneakers/yeezy-350-v2-zebra/yeezy-350-zebra-1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">adidas</span>
-              <p class="font-inter-x-b">yeezy 350 v2 zebra</p>
-            </div>
-            <span class="font-gemunu-xs">82,30º</span>
-          </div>
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/yeezy-500-taupe-light/yeezy-500-1.png">
-            <div>
-              <img src="./img/posts/sneakers/yeezy-500-taupe-light/yeezy-500-1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">adidas</span>
-              <p class="font-inter-x-b">yeezy 500 taupe light</p>
-            </div>
-            <span class="font-gemunu-xs">82,30º</span>
-          </div>
-          <div class="novidades-itens" data-tenis="./img/posts/sneakers/yeezy-700-v2-mauve/yeezy-mauve-1.png">
-            <div>
-              <img src="./img/posts/sneakers/yeezy-700-v2-mauve/yeezy-mauve-1.png" alt="">
-            </div>
-            <h4 class="font-inter-xs">Dropp 2025</h4>
-            <div>
-              <span class="font-archivo-xs">adidas</span>
-              <p class="font-inter-x-b">yeezy 700 v2 mauve</p>
-            </div>
-            <span class="font-gemunu-xs">82,30º</span>
-          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/bad-bunny-x-adidas/bad-bunny-adidas1.png">
+                  <img src="./img/posts/sneakers/bad-bunny-x-adidas/bad-bunny-adidas1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">Adidas</span>
+                    <p class="font-inter-x-b">bad-bunny x adidas</p>
+                  </div>
+                  <span class="font-gemunu-xs">82,30º</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./html/pages/tenis/tenis.html">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/nike-dunk-low-brasil/nike-dunk-low-brazil-1.png">
+                  <img src="./img/posts/sneakers/nike-dunk-low-brasil/nike-dunk-low-brazil-1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">nike</span>
+                    <p class="font-inter-x-b">nike dunk low brasil</p>
+                  </div>
+                  <span class="font-gemunu-xs">76,98º</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/off-white-x-air-jordan-1/off-white-aj1-1.png">
+                  <img src="./img/posts/sneakers/off-white-x-air-jordan-1/off-white-aj1-1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">nike</span>
+                    <p class="font-inter-x-b">off white air jordan 1</p>
+                  </div>
+                  <span class="font-gemunu-xs">82,30º</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/off-white-x-nike-air-force-1-low-lemonade/off-white-nike-af1-lowgold1.png">
+                  <img src="./img/posts/sneakers/off-white-x-nike-air-force-1-low-lemonade/off-white-nike-af1-lowgold1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">nike</span>
+                    <p class="font-inter-x-b">offwhite x nike air force 1</p>
+                  </div>
+                  <span class="font-gemunu-xs">82,30º</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/travis-scott-x-nike-dunk-low/travis-scott-nike-dunk-low1.png">
+                  <img src="./img/posts/sneakers/travis-scott-x-nike-dunk-low/travis-scott-nike-dunk-low1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">nike</span>
+                    <p class="font-inter-x-b">travis scott x nike dunk low 1</p>
+                  </div>
+                  <span class="font-gemunu-xs">82,30º</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/tyga-x-mschf/tyga-mschf-1.png">
+                  <img src="./img/posts/sneakers/tyga-x-mschf/tyga-mschf-1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">vans</span>
+                    <p class="font-inter-x-b">vans tyga x mschf</p>
+                  </div>
+                  <span class="font-gemunu-xs">82,30º</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/yeezy-350-v2-zebra/yeezy-350-zebra-1.png">
+                  <img src="./img/posts/sneakers/yeezy-350-v2-zebra/yeezy-350-zebra-1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">adidas</span>
+                    <p class="font-inter-x-b">yeezy 350 v2 zebra</p>
+                  </div>
+                  <span class="font-gemunu-xs">82,30º</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/yeezy-500-taupe-light/yeezy-500-1.png">
+                  <img src="./img/posts/sneakers/yeezy-500-taupe-light/yeezy-500-1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">adidas</span>
+                    <p class="font-inter-x-b">yeezy 500 taupe light</p>
+                  </div>
+                  <span class="font-gemunu-xs">82,30º</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="novidades-itens" data-tenis="./img/posts/sneakers/yeezy-700-v2-mauve/yeezy-mauve-1.png">
+                  <img src="./img/posts/sneakers/yeezy-700-v2-mauve/yeezy-mauve-1.png" alt="">
+                  <h4 class="font-inter-xs">Dropp 2025</h4>
+                  <div>
+                    <span class="font-archivo-xs">adidas</span>
+                    <p class="font-inter-x-b">yeezy 700 v2 mauve</p>
+                  </div>
+                  <span class="font-gemunu-xs">82,30º</span>
+                </div>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -495,8 +535,8 @@
 
     <section class="container">
       <div class="cultura-bg">
-        <div class="banner font-gemunu-xs cor-2">
-          <div class="banner-container">
+        <div class="font-gemunu-xs cor-2">
+          <div class="banner-container-global">
             <ul class="banner-infinite font-gemunu-xs">
               <li class="banner-txt">baixe nosso aplicativo sneakears</li>
               <li class="banner-txt">baixe nosso aplicativo sneakears</li>
@@ -604,7 +644,7 @@
       </form>
     </div>
   </section>
-  <script type="module" src="js/script.js"></script>
+  <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>

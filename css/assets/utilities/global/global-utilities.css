@@ -2,16 +2,13 @@
   max-width: 1800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 15px;
 }
 .titulo{
   font: 600 4rem/1.2 "Exo 2", sans-serif;
   text-transform: capitalize;
 }
 @media(max-width:1000px){
-  .container{
-    padding:10px;
-  }
   .titulo{
     font-size: 3rem;
   }
