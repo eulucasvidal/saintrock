@@ -1,14 +1,12 @@
 .menu-letreiro{
   display: flex;
   align-items: start;
-  padding: 20px 10px;
   gap: 10px;
   position: relative;
 }
 .letreiro-lista{
   display: flex;
   flex-direction: row;
-  align-items: center;
   transition: 0.4s;
 }
 /* Animção com JS */
@@ -16,14 +14,4 @@
   display: none;
   transition: .4s ease-in-out;
   opacity: 0;
-}
-@media(max-width:1440px){
-  .letreiro-lista{
-    max-width: 950px;
-  }
-}
-@media(max-width:600px){
-  .letreiro-lista{
-    max-width: 200px;
-  }
 }

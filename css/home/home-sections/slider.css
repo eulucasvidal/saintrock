@@ -6,7 +6,7 @@
   padding: 0;
   overflow: hidden;
   position: relative;
-  padding-top: 350px;
+  padding-top: 100px;
   transition: .4s ease;
 }
 
@@ -72,17 +72,9 @@
 #radio4:checked ~ .primeiro{
   margin-left: -75%;
 }
-@media(max-width:1440px){
-  .slider{
-    padding-top: 330px;
-  }
-}
 @media (max-width:1000px){
   .nav-manual,
   .nav-auto{
     margin-top: 45%;
-  }
-  .slider{
-    padding-top: 90px;
   }
 }

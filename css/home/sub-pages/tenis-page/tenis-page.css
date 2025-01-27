@@ -1,12 +1,11 @@
 .page-tenis{
   display: flex;
   flex-direction: column;
-  padding-top: 200px;
   background-color: #3366DD;
 }
 .page-tenis img{
   align-self: center;
-  padding: 50px 150px;
+  padding: 50px 100px;
   max-width: 1400px;
 }
 .page-tenis-info{
@@ -38,7 +37,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 20px;
-  padding-bottom: 180px;
   color: var(--cor-p1);
   background-color: #3366DD;
 }
@@ -103,7 +101,7 @@
 
 @media(max-width:1000px){
   .page-tenis{
-    padding: 100px 20px;
+    padding:35px;
   }
   .page-tenis img{
     padding: 30px;
