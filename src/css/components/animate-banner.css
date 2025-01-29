@@ -1,0 +1,24 @@
+.banner-container-global{ 
+  /* alterar nome da class para apenas banner */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 15px;
+  overflow-x: hidden;
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
+}
+.banner-infinite {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.banner-txt{
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 50px;
+  letter-spacing: 1px;
+  width: max-content;
+  text-transform: uppercase;
+  animation: slide 4000ms linear infinite;
+}

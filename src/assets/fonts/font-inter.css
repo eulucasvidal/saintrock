@@ -1,0 +1,17 @@
+.font-inter-xs{
+  font: 400 0.625rem/1.2 "Inter", sans-serif;
+}
+.font-inter-x,
+.font-inter-x-b{
+  font: 400 0.875rem/1.2 "Inter", sans-serif;
+}
+.font-inter-x-b{
+  font-weight: 600;
+}
+.font-inter-m,
+.font-inter-m-b{
+  font: 400 1rem/1.2 "Inter", sans-serif;
+}
+.font-inter-m-b{
+  font-weight: 600;
+}

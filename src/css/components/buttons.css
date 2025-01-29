@@ -1,0 +1,51 @@
+/* Main Buttons */
+.main-btn-black,
+.main-btn-white{
+  width: 850px;
+  height: 20px;
+  border: 0.5px solid var(--cor-black);
+  color: var(--cor-black);
+  background: transparent;
+}
+.main-btn-white{
+  border-color: var(--cor-white);
+  color: var(--cor-white);
+}
+
+/* Secundary Buttons */
+.second-btn-black,
+.second-btn-white{
+  width: 850px;
+  height: 20px;
+  border: 0.5px solid var(--cor-black);
+  border-radius: 10px;
+  color: var(--cor-black);
+  background: transparent;
+}
+.second-btn-white{
+  border-color: var(--cor-white);
+  color: var(--cor-white);
+}
+
+/* Sneakers Buttons */
+.btn-sneakers-black,
+.btn-sneakers-white{
+  width: 300px;
+  height: 65px;
+  background: var(--cor-black);
+  color: var(--cor-white);
+  border: 0.5px solid var(--cor-black);
+}
+.btn-sneakers-white{
+  background: var(--cor-white);
+  color: var(--cor-black);
+}
+
+/* Contacts Buttons */
+.contact-btn{
+  width: 265px;
+  height: 45px;
+  border: 0.5px solid var(--cor-black);
+  background: var(--cor-white);
+  color: var(--cor-black);
+}
