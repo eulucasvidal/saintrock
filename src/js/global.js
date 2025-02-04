@@ -1,14 +1,14 @@
-import initToggleMenu from "./menuMobile/menu-mobile.js";
+import initToggleMenu from "./modules/mobileMenu.js";
 initToggleMenu();
 
-import initBannerSlider from "./bannerSlide/banner-slide.js";
+import initBannerSlider from "./modules/sliderImages.js";
 initBannerSlider();
 
-import initTenisDestaque from "./lancamentos/lancamentos-imgs.js";
+import initTenisDestaque from "./modules/realeseSneakers.js";
 initTenisDestaque();
 
-import initModal from "./modal/modal.js";
+import initModal from "./modules/modal.js";
 initModal();
 
-import initLetreiroAnimado from "./letreiroAnimado/letreiro-animado.js";
+import initLetreiroAnimado from "./modules/animateLetters.js";
 initLetreiroAnimado();
