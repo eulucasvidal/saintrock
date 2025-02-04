@@ -1,32 +1,41 @@
-/* Main Buttons */
-.main-btn-black,
-.main-btn-white{
-  width: 850px;
-  height: 20px;
-  border: 0.5px solid var(--cor-black);
+/* Button menu ativo */
+.main-btn-white,
+.main-btn-black{
+  cursor: pointer;
+  font: 400 0.6rem/1 "Inter", sans-serif;
   color: var(--cor-black);
-  background: transparent;
+  background: var(--cor-white);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  width: max-content;
+  border: 1px solid transparent;
+  transition: .4s;
 }
-.main-btn-white{
-  border-color: var(--cor-white);
+.main-btn-black{
+  color: var(--cor-white);
+  background: var(--cor-black);
+}
+.main-btn-white:hover,
+.main-btn-black:hover{
+  color: var(--cor-black);
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
+  border-color: var(--cor-black);
+}
+/* Cards Button */
+.cards-btn{
+  font: 400 0.725rem/1.2 "Inter", sans-serif;
+  text-transform: capitalize;
+  background: transparent;
+  border: 1px solid black;
+  padding: 4px 16px;
+  cursor: pointer;
+  transition: .4s;
+}
+.cards-btn:hover{
+  background:var(--cor-black) ;
   color: var(--cor-white);
 }
-
-/* Secundary Buttons */
-.second-btn-black,
-.second-btn-white{
-  width: 850px;
-  height: 20px;
-  border: 0.5px solid var(--cor-black);
-  border-radius: 10px;
-  color: var(--cor-black);
-  background: transparent;
-}
-.second-btn-white{
-  border-color: var(--cor-white);
-  color: var(--cor-white);
-}
-
 /* Sneakers Buttons */
 .btn-sneakers-black,
 .btn-sneakers-white{
@@ -39,62 +48,4 @@
 .btn-sneakers-white{
   background: var(--cor-white);
   color: var(--cor-black);
-}
-
-/* Contacts Buttons */
-.contact-btn{
-  width: 265px;
-  height: 45px;
-  border: 0.5px solid var(--cor-black);
-  background: var(--cor-white);
-  color: var(--cor-black);
-}
-/*  */
-.cards-btn{
-  font: 400 0.625rem/1.2 "Inter", sans-serif;
-  text-transform: uppercase;
-  background: transparent;
-  border: 1px solid black;
-  padding: 4px;
-  cursor: pointer;
-  transition: .4s;
-}
-
-.cards-btn:hover, .cards-btn:hover a{
-  background:var(--cor-black) ;
-  color: var(--cor-white);
-}
-/* Button menu ativo */
-.menu button{
-  cursor: pointer;
-  font: 400 0.575rem/1.2 "Inter", sans-serif;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  width: 260px;
-  height: 40px;
-  border: none;
-}
-.menu button:hover{
-  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
-}
-/* btn contato */
-.btn-captura-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  z-index: 1;
-  position: absolute;
-  margin-top: 160px;
-}
-.btn-captura{
-  width: max-content;
-  padding: 30px 120px 30px 30px;
-  cursor: pointer;
-  background: var(--cor-white);
-}
-.btn-captura-container > p{
-  max-width: 80ch;
-  font: 400 0.625rem/1.2 'Inter', sans-serif;
-  text-align: center;
 }

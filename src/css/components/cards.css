@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr;
   align-items: flex-start;
-  border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -39,21 +38,6 @@
   transform: scale(1.1);
 }
 
-/* cards button */
-.cards-btn{
-  font: 400 0.625rem/1.2 "Inter", sans-serif;
-  text-transform: uppercase;
-  background: transparent;
-  border: 1px solid var(--cor-black);
-  padding: 4px;
-  cursor: pointer;
-  transition: .4s;
-}
-.cards-btn:hover,
-.cards-btn:hover a{
-  background:var(--cor-black) ;
-  color: var(--cor-white);
-}
 /* animação gradiente */
 @keyframes gradient-animado {
   0% {

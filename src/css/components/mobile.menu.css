@@ -5,8 +5,8 @@
   cursor: pointer;
   border: 1px solid var(--cor-white);
   background: var(--cor-black);
-  min-height: 50px;
-  min-width: 50px;
+  min-height: 45px;
+  min-width: 40px;
   border-radius: 50%;
   color: var(--cor-white);
   z-index: 2;

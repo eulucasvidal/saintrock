@@ -23,8 +23,6 @@ grid-row: span 2;
     grid-column: initial;
     grid-row: initial;
   }
-}
-@media(max-width:650px){
   .news-card-big-2{
     grid-column: initial;
   }

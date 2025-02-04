@@ -3,4 +3,11 @@
   width: 15ch;
   color: var(--cor-black);
   text-transform: capitalize;
+  padding: 30px;
+}
+@media(max-width:900px){
+  .title-first-lvl{
+    font-size: 2.5rem;
+    padding: 15px;
+  }
 }
