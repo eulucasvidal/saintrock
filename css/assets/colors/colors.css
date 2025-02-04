@@ -1,6 +1,6 @@
 :root{
-  --cor-p1: #FFFFFF;
-  --cor-p2: #1E1E1E;
+  --cor-white: #FFFFFF;
+  --cor-black: #1E1E1E;
 
   --cor-s1:#99151A;
 
@@ -17,10 +17,10 @@
   color: var(--gradient-1);
 }
 .cor-p1{
-  color: var(--cor-p1);
+  color: var(--cor-white);
 }
 .cor-p2{
-  color: var(--cor-p2);
+  color: var(--cor-black);
 }
 .cor-s1{
   color: var(--cor-s1);

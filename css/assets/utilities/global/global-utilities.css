@@ -5,8 +5,18 @@
   padding: 15px;
 }
 .titulo{
-  font: 600 4rem/1.2 "Exo 2", sans-serif;
+  font: 600 3.5rem/1 "Exo 2", sans-serif;
+  width: 15ch;
+  color: var(--cor-black);
   text-transform: capitalize;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 @media(max-width:1000px){
   .titulo{

@@ -1,5 +1,6 @@
 :root{
-  --cor-white: #FFFFFF;
+  /* cor p1 é a cor white e cor p2 é a cor black */
+  --cor-white: #FFFFFF; 
   --cor-black: #1E1E1E;
 
   --cor-darkred:#99151A;

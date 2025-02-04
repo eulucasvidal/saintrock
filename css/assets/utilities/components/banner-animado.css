@@ -1,4 +1,4 @@
-.banner-container-global{
+.banner{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,7 +7,6 @@
   overflow-x: hidden;
   background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
 }
-
 .banner-infinite {
   display: flex;
   margin: 0;
@@ -21,4 +20,12 @@
   width: max-content;
   text-transform: uppercase;
   animation: slide 4000ms linear infinite;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }

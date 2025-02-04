@@ -1,20 +1,15 @@
-.menu-letreiro{
-  display: flex;
-  align-items: start;
-  gap: 10px;
-}
-.letreiro-lista{
+.animate-logo{
   display: flex;
   align-items: center;
   justify-content: flex-start;
   transition: 0.4s;
 }
-.letras{
+[data-animate="letters"]{
   height: 50px;
   visibility: visible;
 }
 /* Animção com JS */
-.letras.hidden{
+[data-animate="letters"].hidden{
   opacity: 0;
   visibility: hidden;
 }

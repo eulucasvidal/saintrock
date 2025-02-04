@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(4,1fr);
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--cor-p2);
+  border-bottom: 1px solid var(--cor-black);
   gap: 50px;
 }
 .footer-links{
@@ -19,7 +19,7 @@
 .footer-links li > a{
   text-transform: uppercase;
   font: 600 1rem/1.2 'Inter', sans-serif;
-  color: var(--cor-p2);
+  color: var(--cor-black);
   position: relative;
 }
 .footer-links li a::after{

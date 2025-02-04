@@ -1,14 +1,3 @@
-.banner-container-header{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 15px;
-  overflow-x: hidden;
-  position: fixed;
-  z-index: 4;
-  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
-}
 .header-bg{
   position: fixed;
   width: 100%;
@@ -31,7 +20,11 @@
   padding-top: 10px;
   gap: 10px;
 }
-
+.header-nav-content{
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
 .header-btns{
   display: flex;
   align-items: center;
@@ -42,6 +35,37 @@ i{
   -webkit-text-stroke:1px;
   -webkit-text-stroke-color:#FFFFFF;
 }
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 100%;
+  text-transform: uppercase;
+  text-align: left;
+  font: 600 2.1rem/1.2 "Exo 2", sans-serif;
+}
+.menu a{
+  position: relative;
+  color: var(--cor-white);
+}
+.menu li a::after{
+  content: '';
+  width: 0%;
+  height: 0px;
+  left: 0;
+  bottom:-5px;
+  background-color: transparent;
+  position: absolute;
+  transition: .8s;
+}
+.menu li a:hover::after{
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
+}
+/* Interação JS */
 [data-menu="suave"]{
   display: none;
   transition: .4s;
@@ -59,45 +83,4 @@ i{
   backdrop-filter: blur(2px);
   border-radius: 30px;
   z-index: 1;
-}
-.menu{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  height: 100%;
-  text-transform: uppercase;
-  text-align: left;
-  font: 600 2.1rem/1.2 "Exo 2", sans-serif;
-}
-.menu a{
-  color: var(--cor-p1);
-}
-.menu li a::after{
-  content: '';
-  width: 0%;
-  height: 0px;
-  left: 0;
-  bottom:-5px;
-  background-color: transparent;
-  position: absolute;
-  transition: .8s;
-}
-.menu li a:hover::after{
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
-}
-.menu button{
-  cursor: pointer;
-  font: 400 0.575rem/1.2 "Inter", sans-serif;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  width: 260px;
-  height: 40px;
-  border: none;
-}
-.menu button:hover{
-  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
 }

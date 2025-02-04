@@ -1,5 +1,4 @@
-.banner-container-global{ 
-  /* alterar nome da class para apenas banner */
+.banner{ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,4 +20,12 @@
   width: max-content;
   text-transform: uppercase;
   animation: slide 4000ms linear infinite;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }

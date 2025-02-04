@@ -1,11 +1,11 @@
-.captura-cliente{
+.contact{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 400px;
 }
-.captura-cliente > h2{
+.contact > h2{
   position: relative;
 }
 
@@ -22,7 +22,7 @@
   width: max-content;
   padding: 30px 120px 30px 30px;
   cursor: pointer;
-  background: var(--cor-p1);
+  background: var(--cor-white);
 }
 .btn-captura-container > p{
   max-width: 80ch;
@@ -30,12 +30,12 @@
   text-align: center;
 }
 @media(max-width:850px){
-  .captura-cliente h2{
+  .contact h2{
     font-size: 6rem;
   }
 }
 @media(max-width:650px){
-  .captura-cliente h2{
+  .contact h2{
     font-size: 3.5rem;
   }
 }

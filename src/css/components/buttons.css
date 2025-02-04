@@ -49,3 +49,52 @@
   background: var(--cor-white);
   color: var(--cor-black);
 }
+/*  */
+.cards-btn{
+  font: 400 0.625rem/1.2 "Inter", sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid black;
+  padding: 4px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.cards-btn:hover, .cards-btn:hover a{
+  background:var(--cor-black) ;
+  color: var(--cor-white);
+}
+/* Button menu ativo */
+.menu button{
+  cursor: pointer;
+  font: 400 0.575rem/1.2 "Inter", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 260px;
+  height: 40px;
+  border: none;
+}
+.menu button:hover{
+  background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
+}
+/* btn contato */
+.btn-captura-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 160px;
+}
+.btn-captura{
+  width: max-content;
+  padding: 30px 120px 30px 30px;
+  cursor: pointer;
+  background: var(--cor-white);
+}
+.btn-captura-container > p{
+  max-width: 80ch;
+  font: 400 0.625rem/1.2 'Inter', sans-serif;
+  text-align: center;
+}
