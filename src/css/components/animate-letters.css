@@ -13,3 +13,11 @@
   opacity: 0;
   visibility: hidden;
 }
+@media(max-width:650px){
+  .animate-logo{
+    justify-content: center;
+  }
+  [data-animate="letters"]{
+    height: 35px;
+  }
+}
