@@ -47,6 +47,9 @@
 .footer-itens div > h4{
   text-transform: uppercase;
 }
+.footer span{
+  font: 400 0.625rem/1.2 "Inter", sans-serif;
+}
 .footer-direitos{
   display: flex;
   align-items: center;

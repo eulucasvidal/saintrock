@@ -1,0 +1,29 @@
+.members-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  background-color:#F6F6F6;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 400px;
+  height: 150px;
+  white-space: normal;
+}
+.list-star{
+  display: flex;
+  gap: 5px;
+}
+.item-info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item-info img{
+  max-width: 40px;
+  height: auto;
+}
+.item-info div{
+  display: flex;
+  flex-direction: column;
+}

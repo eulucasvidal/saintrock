@@ -23,8 +23,8 @@
   flex-direction: column;
   gap: 20px;
 }
-.culture-txt h3{
-  font-size: 2rem;
+.culture-txt h2{
+  font-size: 1.5rem;
 }
 .culture-content > img{
   max-width: 800px;

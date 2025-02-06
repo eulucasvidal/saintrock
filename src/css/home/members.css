@@ -1,22 +1,47 @@
 .members{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  padding: 20px 0px;
   gap: 50px;
-}
-.members-container{
-  overflow: hidden;
-  padding: 30px 0;
-  background: white;
   position: relative;
 }
+
 .members-column{
   display: flex;
-  padding: 20px 0px;
+  width: max-content;
   gap: 20px;
 }
-.members-column:before,
-.members-column:after {
+.slideLeft{
+  animation: slideLeft 4s linear infinite;
+}
+.slideRight{
+  animation: slideRight 4s linear infinite;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+/* Efeito na coluna */
+.members::before,
+.members::after{
   position: absolute;
   top: 0;
   width: 150px;
@@ -24,39 +49,17 @@
   content: "";
   z-index: 2;
 }
-.members-column::before{
+.members::before{
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
 }
-.members-column::after{
+.members::after{
   right: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
-.members-item{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 20px;
-  background-color:#F6F6F6;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  width: 513px;
-  height: 239px;
+@media(max-width:1000px){
+.members::before,
+.members::after{
+  width: 50px;
 }
-.list-star{
-  display: flex;
-  gap: 5px;
-}
-.item-info{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.item-info img{
-  max-width: 40px;
-  height: auto;
-}
-.item-info div{
-  display: flex;
-  flex-direction: column;
 }
