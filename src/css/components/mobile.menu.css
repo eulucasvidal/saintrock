@@ -40,9 +40,3 @@
     transform: rotate(-135deg);
     top: -6px;
 }
-@media(max-width:650px){
-  [data-menu="button"] {
-    min-height: 35px;
-    min-width: 30px;
-  }
-}

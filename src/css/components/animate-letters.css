@@ -5,19 +5,10 @@
   transition: 0.4s;
 }
 [data-animate="letters"]{
-  height: 50px;
   visibility: visible;
 }
 /* Animção com JS */
 [data-animate="letters"].hidden{
   opacity: 0;
   visibility: hidden;
-}
-@media(max-width:650px){
-  .animate-logo{
-    justify-content: center;
-  }
-  [data-animate="letters"]{
-    height: 35px;
-  }
 }
