@@ -6,6 +6,7 @@
 .page-tenis img{
   align-self: center;
   max-width: 1400px;
+  height: auto;
 }
 .page-cards-info{
   display: flex;
@@ -52,6 +53,7 @@
 .page-imgs-tenis{
   display: flex;
   flex-direction: column;
+  align-items: center;
   overflow: hidden;
   padding: 40px;
   gap: 20px;
@@ -103,7 +105,7 @@
     padding:35px;
   }
   .page-tenis img{
-    padding: 30px;
+    padding-top: 30px;
   }
   .page-subtitulo-tenis{
     width: auto;
@@ -126,5 +128,11 @@
   .btn-page{
     width: 150px;
     height: 45px;
+  }
+}
+@media(max-width:650px){
+  .img-tenis-big{
+    width: auto;
+    max-width: 220px;
   }
 }
