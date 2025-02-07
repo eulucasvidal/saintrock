@@ -28,6 +28,7 @@
   text-transform: capitalize;
   background: transparent;
   border: 1px solid black;
+  color: var(--cor-black);
   padding: 4px 16px;
   cursor: pointer;
   transition: .4s;

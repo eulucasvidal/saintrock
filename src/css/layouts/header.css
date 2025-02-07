@@ -21,7 +21,7 @@
 }
 .header-nav-content{
   display: flex;
-  align-items: start;
+  align-items: center;
   gap: 10px;
 }
 .header-btns{
