@@ -1,10 +1,10 @@
-.sobre{
+.about{
   display: flex;
   flex-direction: column;
   padding: 100px 20px;
   gap: 40px;
 }
-.sobre > *{
+.about > *{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,7 @@
   gap: 35px;
 }
 p{
-  font-size: 18px;
+  font: 400 1rem/1.2 "Inter", sans-serif;
   max-width: 60ch;
 }
 .button{
@@ -26,7 +26,18 @@ p{
   text-transform: capitalize;
   cursor: pointer;
 }
-.sobre div > img{
+.about div > img{
   width: 450px;
   height: auto;
+}
+@media(max-width:1000px){
+  .about{
+    padding: 120px 10px;
+  }
+  .about > *{
+    align-self: initial;
+  }
+  .about div > img{
+  width: auto;
+  }
 }
