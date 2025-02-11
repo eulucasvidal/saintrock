@@ -22,7 +22,10 @@
 .slideRight{
   animation: slideRight 4s linear infinite;
 }
-
+.members-column:hover .slideLeft,
+.members-column:hover .slideRight {
+  animation-play-state: paused;
+}
 @keyframes slideLeft {
   from {
     transform: translateX(0);

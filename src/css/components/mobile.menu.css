@@ -6,7 +6,7 @@
   border: 1px solid var(--cor-white);
   background: var(--cor-black);
   min-height: 40px;
-  min-width: 40px;
+  min-width: 30px;
   border-radius: 50%;
   color: var(--cor-white);
   z-index: 2;
