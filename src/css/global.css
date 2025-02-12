@@ -12,7 +12,6 @@
 @import './components/animate-letters.css';
 @import './components/buttons.css';
 @import './components/cards.css';
-@import './components/cards-members.css';
 @import './components/container.css';
 @import './components/mobile.menu.css';
 @import './components/modal.css';
@@ -27,6 +26,5 @@
 @import './home/slide-brands.css';
 @import './home/news.css';
 @import'./home/releases.css';
-@import './home/members.css';
 @import './home/about-culture.css';
 @import './home/contact.css';
