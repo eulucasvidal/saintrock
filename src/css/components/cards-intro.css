@@ -1,0 +1,26 @@
+.cards-intro{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.cards-intro img{
+  position: relative;
+  filter: brightness(85%);
+  transition: .4s;
+}
+.cards-intro img:hover{
+  filter: brightness(100%);
+}
+.span-card{
+  position: absolute;
+  padding: 0px 20px 20px 0px;
+  align-self: flex-end;
+  text-transform: capitalize;
+  color:var(--cor-white);
+  transition: .4s;
+}
+.cards-intro:hover .span-card{
+  transform: translateX(-15px);
+}

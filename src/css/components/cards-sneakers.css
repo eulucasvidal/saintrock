@@ -12,10 +12,15 @@
   width: 290px;
   height: 320px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .card-sneakers img{
   max-width: 200px;
-  transform: rotate(-10deg);
+  transform: rotate(-20deg);
+  transition: .4s;
+}
+.card-sneakers:hover img{
+  transform: rotate(20deg);
 }
 .card-sneakers span{
   display: flex;

@@ -29,6 +29,7 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0),  #F7F7F7);
 }
 .brands:hover .brands-slide {
+  cursor: pointer;
   animation-play-state: paused;
 }
 .brands-slide {
