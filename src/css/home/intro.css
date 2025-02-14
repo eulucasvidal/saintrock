@@ -1,0 +1,22 @@
+.intro-bg{
+  background: #F7F7F7;
+  box-shadow:inset 750px 0 #1E1E1E;
+}
+.intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+  padding: 100px 0px;
+  gap: 20px;
+}
+.intro-content{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+@media(max-width:1000px){
+  .intro{
+    grid-template-columns: 1fr;
+  }
+}

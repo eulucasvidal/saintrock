@@ -1,0 +1,13 @@
+.sneakers-bg{
+  background: var(--cor-black);
+  box-shadow:inset 0px -180px #F7F7F7;
+}
+.sneakers-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: scroll;
+  max-width: auto;
+  padding: 20px;
+  gap: 20px;
+}

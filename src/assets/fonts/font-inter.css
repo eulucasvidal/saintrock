@@ -15,3 +15,10 @@
 .font-inter-m-b{
   font-weight: 600;
 }
+.font-inter-l,
+.font-inter-l-b{
+  font: 400 1.3rem/1.2 "Inter", sans-serif;
+}
+.font-inter-l-b{
+  font-weight: 600;
+}

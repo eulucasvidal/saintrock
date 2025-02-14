@@ -1,7 +1,6 @@
 .title-first-lvl{
   font: 600 3.5rem/1 "Exo 2", sans-serif;
   width: 15ch;
-  color: var(--cor-black);
   text-transform: capitalize;
   padding: 30px;
 }

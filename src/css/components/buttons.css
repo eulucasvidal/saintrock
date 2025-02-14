@@ -22,8 +22,8 @@
   background: linear-gradient(to left, #a5f5d8, #caf3ba, #f6f096);
   border-color: var(--cor-black);
 }
-/* Cards Button */
-.cards-btn{
+/* cards-news Button */
+.cards-news-btn{
   font: 400 0.725rem/1.2 "Inter", sans-serif;
   text-transform: capitalize;
   background: transparent;
@@ -33,7 +33,7 @@
   cursor: pointer;
   transition: .4s;
 }
-.cards-btn:hover{
+.cards-news-btn:hover{
   background:var(--cor-black) ;
   color: var(--cor-white);
 }

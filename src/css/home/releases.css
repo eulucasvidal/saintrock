@@ -1,3 +1,6 @@
+.realease-bg{
+  background: #F7F7F7 ;
+}
 .realease{
   display: grid;
   grid-template-columns: 1.7fr 1fr;

@@ -3,8 +3,13 @@
   --cor-white: #FFFFFF; 
   --cor-black: #1E1E1E;
 
-  --cor-darkred:#99151A;
 
   --gradient-1:to left,#A5F5D8,#CAF3BA,#F6F096;
   --gradient-2:to left,#A2A1A6,#CCCBD0,#F7F6F9,#CCCBD0,#A2A1A6;
+}
+.color-white{
+  color: var(--cor-white);
+}
+.color-black{
+  color: var(--cor-black);
 }

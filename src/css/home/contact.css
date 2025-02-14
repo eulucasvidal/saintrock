@@ -1,3 +1,6 @@
+.contact-bg{
+  background: #F7F7F7;
+}
 .contact{
   display: flex;
   flex-direction: column;

@@ -8,7 +8,7 @@
   max-width: 1400px;
   height: auto;
 }
-.page-cards-info{
+.page-cards-news-info{
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -111,7 +111,7 @@
     width: auto;
     font-size: 2rem;
   }
-  .page-cards-info{
+  .page-cards-news-info{
     flex-direction: column;
     align-items: start;
     gap: 40px;

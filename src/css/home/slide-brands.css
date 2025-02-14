@@ -1,3 +1,6 @@
+.brands-bg{
+  background: #F7F7F7;
+}
 .brands img{
   display: initial;
   width: 150px;
@@ -5,7 +8,6 @@
 .brands {
   overflow: hidden;
   padding: 5px;
-  background: white;
   white-space: nowrap;
   position: relative;
 }
@@ -20,11 +22,11 @@
 }
 .brands:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #F7F7F7 );
 }
 .brands:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0),  #F7F7F7);
 }
 .brands:hover .brands-slide {
   animation-play-state: paused;
