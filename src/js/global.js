@@ -12,3 +12,6 @@ initModal();
 
 import initLetreiroAnimado from "./modules/animateLetters.js";
 initLetreiroAnimado();
+
+import initScrolltoSection from "./modules/scrollSuave.js";
+initScrolltoSection();
